@@ -11,7 +11,7 @@ BASE_DIR = Path( __file__ ).resolve( ).parent.parent
 SECRET_KEY = 'django-insecure-tidaoeo@yd%m1&@m_a_cp604ibfz5)_tv!-ox23q)cgghp&3-b'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['AubreyDMoralesFigueroa.pythonanywhere.com', 'localhost', '127.0.0.1']
 # ALLOWED_HOSTS = [ ]
@@ -119,7 +119,7 @@ CRISPY_TEMPLATE_PACK = "bootstrap3"
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_PORT = 587
-EMAIL_HOST_USER = 'Aubsticle352@gmail.com'
-EMAIL_HOST_PASSWORD = 'iomg hygk jnyn nawt'
+EMAIL_HOST_USER = 'aubreymorales1989@gmail.com'
+EMAIL_HOST_PASSWORD = 'wgxu bwxa agyi fkpc'
 EMAIL_USE_TLS = True
-DEFAULT_FROM_EMAIL = 'Aubsticle352@gmail.com'
+DEFAULT_FROM_EMAIL = 'aubreydmoralesfigu@lewisu.edu.com'

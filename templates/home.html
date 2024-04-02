@@ -6,12 +6,12 @@
  <nav>
 
   <div class = "logo">
-   <a href = https://github.com/AubFigz  target = "_blank">
+   <a href = https://github.com/AubFigz target = "_blank">
     <img src = "{% static 'img/icons/logo.png' %}" alt = "">
    </a>
   </div>
   <div class = "mini-logo">
-   <a href = https://github.com/AubFigz  target = "_blank">
+   <a href = https://github.com/AubFigz target = "_blank">
     <img src = "{% static 'img/icons/logo.png' %}" alt = "">
    </a>
   </div>
@@ -20,31 +20,31 @@
    <li>
     <a href = "#1">
      <i class = "fa fa-home"></i>
-     <em>Home</em>
+     <em class = "nav-text">Home</em>
     </a>
    </li>
    <li>
     <a href = "#2">
      <i class = "fa fa-user"></i>
-     <em>About</em>
+     <em class = "nav-text">About</em>
     </a>
    </li>
    <li>
     <a href = "#3">
      <i class = "fa fa-pencil"></i>
-     <em>Philosophy</em>
+     <em class = "nav-text">Philosophy</em>
     </a>
    </li>
    <li>
     <a href = "#4">
      <i class = "fa fa-image"></i>
-     <em>Portfolio</em>
+     <em class = "nav-text">Portfolio</em>
     </a>
    </li>
    <li>
     <a href = "#5">
      <i class = "fa fa-envelope"></i>
-     <em>Contact</em>
+     <em class = "nav-text">Contact</em>
     </a>
    </li>
   </ul>
@@ -52,7 +52,7 @@
  </nav>
 
  <div class = "slides">
-  <div class = "slide" id = "1" style = 'overflow: hidden !important'>
+  <div class = "slide" id = "1">
    <div class = "content first-content">
     <div class = "container-fluid">
 
@@ -100,10 +100,7 @@
            class = "white-on-hover text-decoration: none;">Image Channel Processing
         </a>
         <ul>
-         <li style = "margin-left: 20px; margin-top: 9px; font-family: 'Open Sans', sans-serif; font-size: 11px; color:whitesmoke;">This class reads the
-          RedGreenArray.png image using OpenCV (cv2). The image array has three dimensions: height, width, and color channels. This is a 3-channel image,
-          converted from RGB to BGR by cv2. The methods include storing the red and green channels separately, calculating the number of pixels by multiplying
-          the blue and green dimensions. It then generates a matrix of differences squared between the flattened channels, and then applies the square root.
+         <li style = "margin-left: 20px; margin-top: 9px; font-family: 'Open Sans', sans-serif; font-size: 11px; color:whitesmoke;">The values from the ratio log-scaled array are assigned to the unused blue channel of result_image. With this, the differences in the fluorescence intensities are visually amplified.
          </li>
         </ul>
        </li>
@@ -127,28 +124,32 @@
         <a href = "https://github.com/AubFigz/Keras_Layered_Neural_Network-55000_Final.git" target = "_blank" class = "white-on-hover text-decoration: none;">Keras Layered Neural Network</a>
         <ul>
          <li style = "margin-left: 20px; margin-top: 9px; font-family: 'Open Sans', sans-serif; font-size: 11px; color:whitesmoke;">Features layers, dropout, adagrad,
-          regularizers, l2, and early stopping  --alphabetical glyphs predictions.</li>
+          regularizers, l2, and early stopping --alphabetical glyphs predictions.
+         </li>
         </ul>
        </li>
       </ul>
 
-      <ul style = 'margin-left: -3px;'>
+      <ul style = 'margin-left: -3px; padding-bottom: 36px;'>
        <li style = "font-family: 'Open Sans', sans-serif; font-size: 13px;">
-        <a href = "https://github.com/AubFigz/Biopython_Alignment_of_Histone_Domain-51000_W5.git" target = "_blank" 
-           class = "white-on-hover text-decoration: none;">Protein, RNA, DNA Alignment</a>
+        <a href = "https://github.com/AubFigz/Biopython_Alignment_of_Histone_Domain-51000_W5.git" target = "_blank"
+           class = "white-on-hover text-decoration: none;">Protein, RNA, DNA Alignment
+        </a>
         <ul>
          <li style = "margin-left: 20px; margin-top: 9px; font-family: 'Open Sans', sans-serif; font-size: 11px; 
-         color:whitesmoke;">Aligns the molecule's atoms coordinates by superimposing them onto a reference coordinate set.</li>
+         color:whitesmoke;">Aligns the molecules' atoms coordinates by superimposing them onto a reference coordinate set.
+         </li>
         </ul>
        </li>
       </ul>
-
+      <p class = 'pbottomsep'></p>
      </div>
     </div>
    </div>
+
   </div>
 
-  <div class = "slide" id = "2" style = 'overflow: hidden;'>
+  <div class = "slide" id = "2">
    <div class = "content second-content">
     <div class = "container-fluid">
      <div class = "col-md-6">
@@ -209,14 +210,16 @@
      </div>
      <div class = "col-md-6">
       <div class = "right-image">
-       <img src = "{% static 'img/about_image_au2.png' %}" alt = "" style = "margin-right: 6px;">
+       <img src = "{% static 'img/about_image_au3.png' %}" alt = "" style = "margin-right: 6px;">
       </div>
+      <p class = 'pbottomsep'></p>
      </div>
     </div>
    </div>
+
   </div>
 
-  <div class = "slide" id = "3" style = 'overflow: hidden !important;'>
+  <div class = "slide" id = "3">
    <div class = "content third-content">
     <div class = "container-fluid">
      <div class = "col-md-12">
@@ -226,7 +229,7 @@
         <div class = "container-fluid">
          <div class = "row">
           <div class = "col-md-6">
-           <div class = "left-content" style='padding-left: 9px'>
+           <div class = "left-content" style = 'padding-left: 9px'>
             <h2>Software is an art</h2>
             <p>I believe that the beauty of software programs extends
              well beyond the objects one sees in the screens.
@@ -236,7 +239,7 @@
           </div>
           <div class = "col-md-6">
            <div class = "right-image">
-            <img src = "{% static 'img/first_service_au.png' %}" alt = "" style = "opacity: 1.0 !important; transform: scale(1.0);">
+            <img src = "{% static 'img/first_service_au.png' %}" alt = "" style = "opacity: 0.72; transform: scale(1.0);">
            </div>
 
           </div>
@@ -249,20 +252,22 @@
          <div class = "row">
           <div class = "col-md-6">
            <div class = "left-image">
-            <img src = "{% static 'img/second_service_au.jpg' %}" alt = "" style = "opacity: 0.2 !important; transform: scale(1.0);">
+            <img src = "{% static 'img/second_service_au.jpg' %}" alt = "" style = "opacity: 0.4; transform: scale(1.0);">
            </div>
           </div>
           <div class = "col-md-6">
-           <div class = "right-content" style='padding-left: 9px'>
+           <div class = "right-content" style = 'padding-left: 9px'>
             <h2>Software is a science</h2>
-            <p>I always address computer programming as an engineering
+            <p style = 'padding-bottom: 36px;'>I always address computer programming as an engineering
              discipline. I take the time to design well before I
              write a single line of code.
              I use proven patterns that have been thoroughly validated
              through time. I test, and test, and test. My systems
              are as foolproof as humanly possible;
              my algorithms, as efficient as possible.</p>
+
            </div>
+           <p class = 'pbottomsep'></p>
           </div>
          </div>
         </div>
@@ -271,10 +276,11 @@
       </div>
      </div>
     </div>
+
    </div>
   </div>
 
-  <div class = "slide" id = "4" style = 'overflow: hidden !important'>
+  <div class = "slide" id = "4">
    <div class = "content fourth-content">
     <div class = "container-fluid">
      <div class = "row">
@@ -286,9 +292,9 @@
          <div class = "hover-effect">
           <div class = "hover-content">
            <h2>Lewis University</h2>
-           <p>Master of Science (
+           <p>
             <em>M.S.</em>
-            ), Data Science
+            : Data Science
            </p>
           </div>
          </div>
@@ -303,9 +309,9 @@
          <div class = "hover-effect">
           <div class = "hover-content">
            <h2>University of Florida</h2>
-           <p>Bachelor of Science (
+           <p>
             <em>B.S.</em>
-            ), Genetics
+            : Genetics
            </p>
           </div>
          </div>
@@ -376,13 +382,13 @@
          <div class = "hover-effect">
           <div class = "hover-content">
            <h2>Visualizing ACS PUMS Data</h2>
-           <p>Statistics: Household languages, income, vehicles, property Taxes vs property values.</p>
+           <p>Statistics: languages, income, vehicles, property taxes/values.</p>
           </div>
          </div>
         </div>
        </div>
       </div>
-      
+
       <div class = "col-md-4 col-sm-6">
        <div class = "item">
         <div class = "thumb">
@@ -396,28 +402,27 @@
         </div>
        </div>
       </div>
-            
+
       <div class = "col-md-4 col-sm-6">
        <div class = "item">
         <div class = "thumb">
          <img src = "{% static 'img/portfolio/09-portfolio.jpg' %}" alt = "">
          <div class = "hover-effect">
           <div class = "hover-content">
-           <h2>Penguin Species Clustering</h2>
-           <p>Left: Clusters resulting from k-means of two principal components. 
-            Right: Differences in the mean values of the body mass, bill length, and bill depth.</p>
+           <h2>Penguin Species</h2>
+           <p>k-means, and differences in the mean values of anatomical features.</p>
           </div>
          </div>
         </div>
        </div>
       </div>
-      
+      <p class = 'pbottomsep'></p>
      </div>
     </div>
    </div>
   </div>
 
-  <div class = "slide" id = "5" style = 'overflow: hidden !important'>
+  <div class = "slide" id = "5">
    <div class = "content fifth-content">
     <div class = "container-fluid">
      <div class = "col-md-6">
@@ -453,7 +458,7 @@
        </div>
 
       </form>
-
+      <p class = 'pbottomsep'></p>
      </div>
     </div>
    </div>

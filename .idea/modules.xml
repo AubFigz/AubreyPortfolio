@@ -3,7 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/../AuPortfNtebooks/.idea/AuPortfNtebooks.iml" filepath="$PROJECT_DIR$/../AuPortfNtebooks/.idea/AuPortfNtebooks.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../aubrey/Code/.idea/Code.iml" filepath="$PROJECT_DIR$/../aubrey/Code/.idea/Code.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/au-project.iml" filepath="$PROJECT_DIR$/.idea/au-project.iml" />
       <module fileurl="file://$PROJECT_DIR$/../ts-project/.idea/ts-project.iml" filepath="$PROJECT_DIR$/../ts-project/.idea/ts-project.iml" />
     </modules>
